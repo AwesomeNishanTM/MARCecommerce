@@ -95,8 +95,8 @@ if(isset($_POST['buy'])){
                     <input value="0" name="pdc" type="hidden">
                     <input value="EPAYTEST" name="scd" type="hidden">
                     <input value="<?php echo $vehicle['vehicleSN']?>" name="pid" type="hidden">
-                    <input value="http://merchant.com.np/page/esewa_payment_success?q=su" type="hidden" name="su">
-                    <input value="http://merchant.com.np/page/esewa_payment_failed?q=fu" type="hidden" name="fu">
+                    <input value="http://AwesomeNishanTM.com.np/MARCecommerce?q=su" type="hidden" name="su">
+                    <input value="http://AwesomeNishanTM.com.np/MARCecommerce?q=fu" type="hidden" name="fu">
                     <input value="Purchase with Esewa" type="submit"
                         class="button price btn2 btn  my-3 my-sm-3 col-sm-3" name="buy">
                 </form>
